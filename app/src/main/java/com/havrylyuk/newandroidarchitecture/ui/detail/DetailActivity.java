@@ -12,13 +12,13 @@ import android.view.MenuItem;
 import android.widget.TextView;
 
 import com.facebook.drawee.view.SimpleDraweeView;
+import com.havrylyuk.newandroidarchitecture.BuildConfig;
 import com.havrylyuk.newandroidarchitecture.R;
 import com.havrylyuk.newandroidarchitecture.data.entiry.Country;
 
 public class DetailActivity extends AppCompatActivity {
 
     public static final String EXTRA_COUNTRY = "EXTRA_COUNTRY";
-    public static final String X_LARGE_ICON_URL = "http://www.geonames.org/flags/x/";
 
     private SimpleDraweeView imageView;
     private TextView tvCapital;
@@ -69,7 +69,7 @@ public class DetailActivity extends AppCompatActivity {
             getSupportActionBar().setTitle(country.getCountryName());
         }
         if (imageView != null ) {
-             String flagUri = X_LARGE_ICON_URL + country.getCountryCode().toLowerCase() + ".gif";
+             String flagUri = BuildConfig.GEONAME_ICON_URL +"x/"+ country.getCountryCode().toLowerCase() + ".gif";
             imageView.setImageURI(Uri.parse(flagUri));
         }
         tvCapital.setText(getString(R.string.format_country_capital,country.getCapital()));

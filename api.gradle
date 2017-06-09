@@ -1,6 +1,6 @@
 ext {
 
      BASE_GEONAME_URL= "http://api.geonames.org/";
-     GEONAME_ICON_URL= "http://www.geonames.org/flags/m/";
+     GEONAME_ICON_URL= "http://www.geonames.org/flags/";
      GEONAME_API_KEY= "graviton57";
 }

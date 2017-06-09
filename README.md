@@ -22,6 +22,8 @@
 
 ## Sample
 
+Simple Android App using geonames API http://www.geonames.org
+
 ### Effect
 ![](art/demo_effect.gif)
 
@@ -34,7 +36,6 @@
 - [RxJava2](https://github.com/ReactiveX/RxJava), [RxAndroid](https://github.com/ReactiveX/RxAndroid) and [RxBindings](https://github.com/JakeWharton/RxBinding)
 - [Retrofit2](http://square.github.io/retrofit/)
 - [Okhttp3](https://github.com/square/okhttp/)
-- [Butterknife](https://github.com/JakeWharton/butterknife)
 - [Fresco - A powerful image downloading and caching library for Android](https://github.com/facebook/fresco/)
 
 

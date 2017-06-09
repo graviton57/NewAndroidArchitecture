@@ -57,7 +57,7 @@ public class CountriesAdapter extends RecyclerView.Adapter<CountriesAdapter.Item
         holder.country.setText(country);
         String capital = list.get(position).getCapital();
         holder.capital.setText(capital);
-        String flagUrl = BuildConfig.GEONAME_ICON_URL +
+        String flagUrl = BuildConfig.GEONAME_ICON_URL + "m/" +
                 list.get(position).getCountryCode().toLowerCase() + ".png";
         holder.flag.setImageURI(Uri.parse(flagUrl));
     }
