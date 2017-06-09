@@ -21,8 +21,8 @@
 
 
 ## Sample
+Here's a simple sample app using geonames API http://www.geonames.org and that demonstrates some parts of [Android Architecture Components](https://developer.android.com/topic/libraries/architecture/index.html)
 
-Simple Android App using geonames API http://www.geonames.org
 
 ### Effect
 ![](art/demo_effect.gif)
