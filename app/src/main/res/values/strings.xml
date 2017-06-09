@@ -1,0 +1,19 @@
+<resources xmlns:xliff="http://schemas.android.com/tools">
+    <string name="app_name">New Android Architecture</string>
+
+    <string name="bounding_box">Bounding Box:</string>
+
+    <string name="format_country_name" translatable="false">Country: <xliff:g id="name">%1$s</xliff:g></string>
+    <string name="format_country_icon" translatable="false">Country icon: <xliff:g id="icon">%1$s</xliff:g></string>
+    <string name="format_country_continent" >Continent: <xliff:g id="continent">%1$s</xliff:g></string>
+    <string name="format_country_population">Country population: <xliff:g id="population">%,d</xliff:g></string>
+    <string name="format_country_code" >Country ISO code: <xliff:g id="code">%1$s</xliff:g></string>
+    <string name="format_country_capital" >Capital: <xliff:g id="capital">%1$s</xliff:g></string>
+    <string name="format_country_area" ><![CDATA[Square km<sup><small>2</small></sup>]]>: <xliff:g id="area">%1$s</xliff:g></string>
+    <string name="format_country_south">South: <xliff:g id="south">%,2f</xliff:g></string>
+    <string name="format_country_north">North: <xliff:g id="north">%,2f</xliff:g></string>
+    <string name="format_country_east" >East: <xliff:g id="east"  >%,2f</xliff:g></string>
+    <string name="format_country_west" >West: <xliff:g id="west"  >%,2f</xliff:g></string>
+    <string name="format_country_currency" >Currency: <xliff:g id="currency">%1$s</xliff:g></string>
+
+</resources>

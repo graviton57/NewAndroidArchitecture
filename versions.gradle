@@ -1,0 +1,16 @@
+ext {
+    archVersion = '1.0.0-alpha1'
+    supportVersion = '25.3.1'
+    okhttpVersion = '3.4.1'
+    rxJavaVersion = '2.1.0'
+    retrofitVersion = '2.2.0'
+    constraintVersion = '1.0.2'
+    eventBusVersion = '3.0.0'
+    frescoVersion = '1.1.0'
+    junitVersion = '4.12'
+    espressoVersion = '2.2.2'
+    butterKnifeVersion = '8.6.0'
+    mockitoVersion= '2.8.9'
+    rxJava2Version = '2.1.0'
+    rxAndroidVersion = '2.0.1'
+}
