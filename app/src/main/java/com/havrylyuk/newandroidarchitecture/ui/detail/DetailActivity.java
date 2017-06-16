@@ -62,14 +62,16 @@ public class DetailActivity extends AppCompatActivity {
 
     @SuppressWarnings("deprecation")
     private void showCountryDetail(@NonNull Country country) {
-        CollapsingToolbarLayout toolbarLayout = (CollapsingToolbarLayout) findViewById(R.id.toolbar_layout);
+        CollapsingToolbarLayout toolbarLayout =
+                (CollapsingToolbarLayout) findViewById(R.id.toolbar_layout);
         toolbarLayout.setTitle(country.getCountryName());
         toolbarLayout.setExpandedTitleColor(ContextCompat.getColor(this, android.R.color.white));
         if (getSupportActionBar() != null) {
             getSupportActionBar().setTitle(country.getCountryName());
         }
         if (imageView != null ) {
-             String flagUri = BuildConfig.GEONAME_ICON_URL +"x/"+ country.getCountryCode().toLowerCase() + ".gif";
+             String flagUri = BuildConfig.GEONAME_ICON_URL +"x/" +
+                     country.getCountryCode().toLowerCase() + ".gif";
             imageView.setImageURI(Uri.parse(flagUri));
         }
         tvCapital.setText(getString(R.string.format_country_capital,country.getCapital()));

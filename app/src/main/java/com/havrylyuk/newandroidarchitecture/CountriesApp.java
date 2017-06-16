@@ -13,7 +13,6 @@ public class CountriesApp extends Application {
     @Override
     public void onCreate() {
         super.onCreate();
-        //DatabaseHolder.init(this);
         Fresco.initialize(this);
     }
 }

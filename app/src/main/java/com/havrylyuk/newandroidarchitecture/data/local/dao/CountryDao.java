@@ -21,6 +21,6 @@ public interface CountryDao {
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     void insertAll(List<Country> countries);
 
-    @Query("select * from countries where geonameId = :countryId")
+    @Query("SELECT * FROM countries WHERE geonameId = :countryId")
     Country loadCountry(int countryId);
 }

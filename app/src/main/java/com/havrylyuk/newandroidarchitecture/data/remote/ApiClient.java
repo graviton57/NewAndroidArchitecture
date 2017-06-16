@@ -62,7 +62,8 @@ public final class ApiClient {
     @NonNull
     private static OkHttpClient buildClient() {
         HttpLoggingInterceptor interceptor = new HttpLoggingInterceptor();
-        interceptor.setLevel(BuildConfig.DEBUG ? HttpLoggingInterceptor.Level.BODY : HttpLoggingInterceptor.Level.NONE);
+        interceptor.setLevel(BuildConfig.DEBUG ? HttpLoggingInterceptor.Level.BODY
+                : HttpLoggingInterceptor.Level.NONE);
 
         return new OkHttpClient.Builder()
                 .addInterceptor(interceptor)

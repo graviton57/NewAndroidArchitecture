@@ -17,9 +17,7 @@
         android:paddingRight="@dimen/abc_list_item_padding_horizontal_material"
         android:orientation="horizontal">
 
-        <!-- fresco:placeholderImage="@mipmap/ic_launcher"
-             fresco:placeholderImageScaleType="fitCenter"-->
-        <com.facebook.drawee.view.SimpleDraweeView
+      <com.facebook.drawee.view.SimpleDraweeView
             android:id="@+id/list_item_icon"
             android:layout_width="@dimen/list_icon_size"
             android:layout_height="@dimen/list_icon_size"
